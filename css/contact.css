@@ -1,0 +1,161 @@
+.contact-us{
+    background-image: url(../images/contact.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    
+}
+.contact-us p{
+    width: 100%;
+    padding: 2%;
+    background-color: rgba(0,0,0,0.5);
+    color: #fff;
+    font-size: 3em;
+    margin-bottom: 0px;
+}
+
+.form{
+    margin-top: 10px;
+    background-color: #8dc63f;
+    float: left;
+}
+
+.form input{
+    width: 96%;
+    margin: 5%;
+}
+
+.check{
+    padding-left: 32px;
+    margin-top: 16px;
+    color: #747474;
+    font-size: 1.5em;
+   padding-left: 32px;
+    padding-right: 31px;
+}
+.ch{
+    background-color: #fff;
+    padding: 2%;
+    border-radius: 5px;
+}
+.looking input{
+       width: 98%;
+    margin: 16px;
+}
+textarea{
+    margin: 2.3%;
+}
+.mt-1, .my-1 {
+    margin-top: 1.5rem!important;
+}
+.form-control {
+    width: 98%;}
+
+.btn-primary{
+    width: 40%;
+    margin-left:30%;
+    margin-bottom: 15px;
+
+
+}
+
+
+
+
+.info2{
+    margin-top: 10px;
+    padding: 5px;
+    color: #fff;
+    background-color: #71655f;
+    overflow: hidden;
+}
+
+.info2 hr{
+    margin-top: 1px;
+}
+
+
+
+.map{
+    margin-top: 10px;
+     box-shadow: 1px 1px 5px 0px #c5c5c5;
+}
+@media(max-width:1168px){
+    .form-control {
+    width: 98.5%;
+}
+}
+@media(max-width:1077px){
+    textarea {
+    margin: 2.8%;
+}
+}
+@media(max-width:767px){
+    .looking input,textarea{
+       width: 94%;
+}
+     textarea {
+    margin: 1%;
+}
+    .form-control {
+    width: 98%;}
+.form input{
+    width: 98%;
+    margin: 1%;
+}
+}
+
+
+
+
+.btn-primary {
+    color: #fff;
+    background-color: #70645e;
+    border-color: #70645e;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #866f60;
+    border-color: #866f60;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,764 @@
+ body { 
+     font-weight: 100;
+     margin: 0px;
+     padding: 0px;
+     background-color: #fff;
+     cursor: default;
+            }
+
+
+/*nav bar*/
+nav{
+    box-shadow: 1px 1px 5px 0px #c5c5c5;
+}
+li{
+    text-align: center;
+}
+.navbar-nav a {
+    color: #007bff;
+    text-decoration: none;
+    margin: 5px;
+    border-radius: 2px;
+    font-size: 1.5em;
+    
+}
+.navbar-nav a:hover {
+    color: #007bff;
+    background-color: #e0f0cc;
+    
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #3c2313;
+}
+.line{
+    border-right: 2px solid #d4e2c2;
+    margin-top: 5px;
+    height: 50px;
+    width: 1px;
+   
+}
+.active a{
+     background-color: #e0f0cc;
+}
+
+/*slider*/
+.slider-bac{
+    width:100%;
+    background-image: url(../images/slider-background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+     background-attachment: fixed;
+    background-position: center;
+  
+}
+/* responsive image slider  */
+.slider{
+    margin-top: 0px;
+    padding: 0;
+}
+.carousel-control-next, .carousel-control-prev {
+    opacity: 1;
+        width: 9%
+}
+.carousel-item img{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin: auto;
+}
+
+
+/*header*/
+ .box{
+      margin-top: 10px;
+     max-height: 450px;
+     
+}
+.header .box{
+    min-height: 300px;
+
+}
+.box img {
+  
+    width: 100%;
+    height: 100%;
+    
+   
+}
+
+ .title:hover{
+    background-color: rgba(0,0,0,0.7);
+}
+ .title{
+     position: absolute;
+     top: 0px;
+     left: 15px;
+     right: 15px;
+     bottom: 0px;
+      background-color: rgba(0,0,0,0.4);
+     color: #fff;
+     padding-top: 20%;
+     padding-left: 5px;
+      padding-right: 5px;
+       -webkit-transition:all .3s ease-in-out;
+    -moz-transition:all .3s ease-in-out;
+    -o-transition:all .3s ease-in-out;
+    -ms-transition:all .3s ease-in-out;
+    transition:all .3s ease-in-out;
+}
+ .title .h1{
+    width: 100%;
+    font-size: 3em;
+}
+ .read-more{
+    position: absolute;
+    right: 20px;
+    bottom: 1%;
+    background-color: rgba(0,0,0,0.5);
+    padding: 1.5%;
+    cursor: pointer;
+     color: #fff;
+}
+.read-more:hover{
+     background-color: rgba(0,0,0,0.9);
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+ a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+.view-more{
+    margin-top: 10px;
+    background-color: #80634f;
+    height: 50px;
+    padding: 5px;
+    text-align: center;
+}
+.view-more:hover{
+   
+    background-color: #8d6d56;
+   
+}
+.view-more .more{
+    width: 100%;
+    height: auto;
+    border: 1px solid #fff;
+    padding: 7px;
+}
+
+/*why-wayak*/
+.why{
+    margin-top: 10px;
+}
+.why-wayak-background{
+    width: 100%;
+    border: 1px solid #b1afaf;
+    background-image: url(../images/why-wayak.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 80px;
+    background-position: center;
+   
+    
+}
+hr{
+    margin-top: 40px;
+    background-color: #b1afaf;
+}
+.why-wayak{
+    text-align: center;
+}
+.why-wayak .box{
+    overflow: hidden;
+     
+}
+
+   
+.why-wayak .title {
+    padding-top: 28%;
+}
+
+
+.why-wayak .title .h1 {
+   -webkit-transition:all .3s ease-in-out;
+    -moz-transition:all .3s ease-in-out;
+    -o-transition:all .3s ease-in-out;
+    -ms-transition:all .3s ease-in-out;
+    transition:all .3s ease-in-out;
+}
+.why-wayak  .title:hover .h1{
+   -webkit-transform: scale(1.2);
+     -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+
+/*deafening world*/
+
+.contain{
+    margin-top: 10px;
+    background-color: #8dc63f;
+    padding: 5px;
+    text-align: center;
+    color: #fff;
+    font-size: 2em;
+    
+}
+.contain .box2{
+    border: 1px solid #fff;
+    padding-top: 10px;
+    overflow: hidden;
+}
+.box2 span{
+    color: #80634f;
+    font-weight: bold;
+}
+.box2 p{
+    line-height: normal;
+}
+.box2 p:nth-child(1) {
+    margin-left: -10%;
+}
+.box2 p:nth-child(2) {
+    margin-right: -10%;
+}
+
+/*our-services*/
+.our-services p{
+    text-align: center;
+    color: #80634f;
+    font-size: 5em;
+
+}
+.our-services {
+    background-image: url(../images/our-services.png);
+    background-repeat: no-repeat;
+    background-size: 90% 100%;
+    text-align: center;
+    padding-top: 20%;
+    padding-bottom: 20%;
+     background-attachment: fixed;
+    background-position: center;
+  
+}
+
+/*expertise*/
+.expertise, .faq{
+    margin-top: 10px;
+}
+.expertise-box, .faq-box{
+    width: 100%;
+    border: 1px solid #b1afaf;
+    height: 80px;
+    text-align:center;
+    padding-top: 7px; 
+}
+.expertise-box, .faq-box p{
+    font-size: 3em;
+    color: #3c2313;
+}
+hr{
+    margin-top: 40px;
+    background-color: #b1afaf;
+}
+.expertise2 .row{
+    overflow: hidden;
+    height: auto;
+    
+}
+.expertise2 {
+    text-align: center;
+
+   
+    
+}
+
+.expertise2  .title{
+    font-size: 0.8em;
+    padding-top: 40%;
+   
+}
+
+.expertise2 .box {
+   -webkit-transition:all .3s ease-in-out;
+    -moz-transition:all .3s ease-in-out;
+    -o-transition:all .3s ease-in-out;
+    -ms-transition:all .3s ease-in-out;
+    transition:all .3s ease-in-out;
+    max-height: 300px;
+}
+.expertise2 .box:hover{
+   -webkit-transform: scale(1.2);
+     -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+    z-index: 1;
+    
+}
+/*questions*/
+
+.questions{
+    margin-top: 10px;
+    background-image: url(../images/slider-background.png);
+    background-size: 100% 100%;
+    
+}
+.card-body{
+    color: #8dbf45;
+}
+.questions .btn-link{
+    text-decoration:none;
+    width: 100%;
+    text-align: left;
+    color: #43342b;
+    font-size: 1.1em;
+    overflow: hidden;
+}
+.card{
+    margin-bottom: 5px;
+    border-radius: 0px;
+    background-color: rgba(255,255,255,0.6);
+}
+.card-header{
+    width: 100%;
+}
+.card-img{
+   
+    width: 100%;
+     margin-left: 2%;
+}
+.card-img img:nth-child(1){
+    width: 75%;
+    margin-top: 5px;
+    
+}
+.card-img img:nth-child(2){
+    width: 60%;
+    margin-top: 5px;
+display: none;
+}
+
+
+/*our team*/
+
+.our-team{
+    margin-top: 10px;
+    background-image: url(../images/wood.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    padding-bottom: 5px;
+    box-shadow: 1px 1px 5px 0px #c5c5c5;
+}
+
+.team{
+    background-color: #cdced0;
+    height: 50px;
+    padding: 5px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.team p{
+    font-size: 2em;
+}
+.our-team .card {
+    margin-bottom: 5px;
+    border-radius: 2px;
+    background-color: #fff;
+    border: 0px solid rgba(0,0,0,.125);
+    box-shadow: 1px 1px 5px 0px #c5c5c5;
+
+}
+.our-team .img-card{
+    border-radius: 50%;
+    display: block;
+    width: 200px;
+    height: 200px;
+    border: 3px solid #d3d4d5;
+    margin: 10px auto;
+    overflow: hidden;
+}
+
+.our-team .img-card img {
+   -webkit-transition:all .3s ease-in-out;
+    -moz-transition:all .3s ease-in-out;
+    -o-transition:all .3s ease-in-out;
+    -ms-transition:all .3s ease-in-out;
+    transition:all .3s ease-in-out;
+}
+.our-team .card:hover .img-card img{
+   -webkit-transform: scale(1.2);
+     -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+    z-index: 1;
+    
+}
+.card-body{
+    padding: 0px;
+    margin-bottom: 10px;
+}
+.card-text{
+    color: #585858;
+    width: 100%;
+    height: 60px;
+    background-color: #f4f4f4;
+    font-size: 2em;
+}
+.card-text2{
+    font-size: 1.4em;
+    color: #9d9d9d;
+}
+
+.card-body img{
+    width: 30px;
+}
+
+/*JOIN*/
+.join{
+    text-align: center;
+}
+.join p:nth-child(1){
+    font-size: 3em;
+}
+.join p:nth-child(2){
+    font-size: 2em;
+    color: #b7b7b7;
+}
+
+.input-group>.custom-file, .input-group>.custom-select, .input-group>.form-control {
+    margin-right: 13px;
+}
+
+.join hr {
+    margin-top: 1rem;
+    margin-bottom: 0.9rem;
+}
+.join .btn-secondary {
+    color: #fff;
+    background-color: #80634f;
+    border-color: #80634f;
+}
+
+/*social media*/
+.social-media{
+    text-align: center;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+     background-color: #80634f;
+    
+}
+/*navbar2*/
+ 
+.bg-light {
+    background-color: #80634f!important;
+}
+.navbar2 .navbar-light .navbar-nav .nav-link {
+    color: #ffffff;
+}
+.navbar2 .navbar-nav a:hover {
+    color: #fff;
+    background-color: #94745e;
+}
+.navbar2 .line {
+    border-right: 2px solid #94745e;
+    margin-top: 5px;
+    height: 50px;
+    width: 0.7px;
+}
+
+.navbar2 .active a{
+     background-color: #94745e;
+}
+
+
+.navbar2 nav{
+    box-shadow: 0px 0px 0px 0px;
+}
+navbar2 button{
+    text-align: center;
+}
+
+.social-media img{
+    width: 40px;
+}
+
+/*disclaimer*/
+.disclaimer{
+    width: 100%;
+    background-color: #8dc63f;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 9px;
+}
+.disclaimer p{
+    font-size: 2em;
+    color: #fff;
+}
+
+
+
+
+
+#modal-text{
+    font-size: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:1118px){
+    .expertise2  .title{
+    font-size: 0.7em;
+    padding-top: 40%;
+   
+}
+}
+@media(max-width:1150px){
+    .why-wayak  .title{
+    padding-top: 37%;
+}
+}
+
+@media(max-width:1054px){
+    .our-team .img-card{
+    width: 170px;
+    height: 170px;
+    }
+}
+@media(max-width:991px){
+    .line{
+        display: none;
+    }
+     .why-wayak .title{
+    padding-top: 41%;
+}
+     .expertise2  .title{
+    font-size: 0.6em;
+    padding-top: 40%;
+   
+}
+}
+@media(max-width:935px){
+    .card-text{
+    font-size: 1.5em;
+}
+    
+}
+@media(max-width:910px){
+    
+    .our-team .img-card{
+    width: 140px;
+    height: 140px;
+    }
+}
+@media(max-width:860px){
+    .expertise-box p{
+        margin-top: 10px;
+        font-size: 0.7em;
+    }
+}
+
+@media(max-width:767px){
+   .title .h1{
+    font-size: 2em;
+    padding-right: 4%;
+}
+     .why-wayak  .title{
+    padding-top: 45%;
+}
+      .card-text{
+    font-size: 2em;
+}
+      .our-team .img-card{
+    width: 300px;
+    height: 300px;
+    }
+    .questions img{
+        display: none;
+    }
+     
+    .box2 p{
+        font-size: 0.9em;
+    }
+    .expertise2  .title .h1{
+    font-size: 3em;
+}
+    
+@media(max-width:720px){
+    .view-more .more{
+        font-size: 0.9em;
+        margin-bottom: 2px;
+        padding: 8.5px;
+    }
+    
+}
+@media(max-width:688px){
+    .title .h1{
+    font-size: 1.5em;
+    padding-right: 4%;
+}
+    .join p:nth-child(1){
+    font-size: 2.5em;
+}
+.join p:nth-child(2){
+    font-size: 1.5em;
+    color: #b7b7b7;
+}
+    
+    .box2 p{
+        font-size: 0.7em;
+    }
+    .our-services p{
+    font-size: 4em;
+
+}
+     .view-more .more{
+        font-size: 0.7em;
+        margin-bottom: 2px;
+        padding: 10.5px;
+    }
+   
+}
+@media(max-width:636px){
+    .title p{
+    font-size: 0.8em;
+    padding-right: 4%;
+}
+   
+     .expertise-box p{
+        margin-top: 12px;
+        font-size: 0.6em;
+    }
+    
+}
+@media(max-width:598px){
+     .view-more .more{
+        font-size: 0.4em;
+        margin-bottom: 2px;
+        padding: 8.9px;
+    }
+}
+@media(max-width:575px){
+  
+    .expertise2  .title .h1{
+    font-size: 4em;
+}
+    .expertise2  .title{
+    padding-top: 22%;
+}
+   
+     .why-wayak  .title{
+    padding-top: 39%;
+}
+    hr{
+        display: none;
+    }
+    .title .h1{
+    font-size: 2em;
+    padding-right: 4%;
+}
+     .title p{
+    font-size: 0.9em;
+    padding-right: 4%;
+}
+  
+    .view-more .more{
+    width: 100%;
+    height: auto;
+    border: 1px solid #fff;
+    padding: 7px;
+        font-size: 1em;
+}
+}
+@media(max-width:520px){
+     .our-services p{
+    font-size: 3.1em;
+
+}
+    .join p:nth-child(1){
+    font-size: 2em;
+}
+.join p:nth-child(2){
+    font-size: 1em;
+    color: #b7b7b7;
+}
+}
+@media(max-width:500px){
+    .box2 p{
+        font-size: 0.6em;
+    }
+      .our-team .img-card{
+    width: 150px;
+    height: 150px;
+    }
+  .expertise2  .title{
+    padding-top: 26%;
+}
+    
+}
+@media(max-width:435px){
+    .box2 p{
+        font-size: 0.4em;
+    }
+     .why-wayak  .title{
+    padding-top: 45%;
+}
+    .join p:nth-child(1){
+    font-size: 1.5em;
+}
+.join p:nth-child(2){
+    font-size: 0.7em;
+    color: #b7b7b7;
+}
+    .expertise2  .title{
+    padding-top: 30%;
+}
+}
+@media(max-width:400px){
+     .our-services p{
+    font-size: 2.5em;
+
+}
+    
+}
+    @media(max-width:370px){
+    
+ .expertise2  .title{
+    padding-top: 37%;
+}
+}
+@media(max-width:310px){
+     .title .h1{
+    font-size: 1.5em;
+    padding-right: 5%;
+}
+    
+}
+    @media(max-width:280px){
+        .expertise2  .title .h1{
+   font-size: 2.6em;
+}
+    }

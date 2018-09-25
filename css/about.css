@@ -1,0 +1,151 @@
+.about-bac{
+    background-image: url(../images/about-bac.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    
+}
+.about-bac p{
+    width: 100%;
+    padding: 2%;
+    background-color: rgba(0,0,0,0.5);
+    color: #fff;
+    font-size: 3em;
+}
+
+.ex2 p{
+    font-size: 0.7em;
+    margin-top: 1.6%;
+}
+/*about-info*/
+.about-info{
+    margin-top: 15px;
+    width: 100%;
+    padding: 15px;
+    color: #fff;
+    background-color: #8dc63f;
+    font-size: 1.4em;
+}
+
+/*check-our-services*/
+.check-our-services{
+    margin-top: 10px;
+    background-image: url(../images/check-our.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    
+}
+.check-our-services p{
+    width: 100%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    background-color: rgba(0,0,0,0.5);
+    color: #fff;
+    font-size: 3em;
+}
+
+/*our-value*/
+.our-value{
+    margin-top: 15px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    font-size: 1.2em;
+}
+.our-value img{
+    width: 20px;
+}
+
+.our-approach{
+     margin-top: 15px;
+    width: 100%;
+    padding: 15px;
+    color: #fff;
+    background-color: #80634f;
+    font-size: 1.4em;
+}
+
+.clients2{
+    margin-top: 10px;
+    width: 100%;
+    overflow: hidden;
+   
+}
+
+
+
+
+
+
+
+
+.show-real{
+    text-align: center;
+      background-color: #8dc63f;
+    color: #fff;
+    padding: 15px;
+    margin-top: 40px;
+    font-size: 1em;
+    
+}
+.show-real a{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:982px){
+    .ex2 p{
+    font-size: 0.5em;
+    margin-top: 4%;
+}
+     .clients p{
+    font-size: 0.5em;
+    margin-top: 4%;
+}
+}
+@media(max-width:917px){
+    .our2 p{
+    font-size: 0.7em;
+    margin-top: 3.5%;
+}
+}
+@media(max-width:730px){
+   
+     .clients p{
+    font-size: 0.5em;
+    margin-top: 7%;
+}
+}
+@media(max-width:713px){
+    .ex2 p{
+    font-size: 0.5em;
+    margin-top: 0%;
+}
+    
+}
+@media(max-width:575px){
+    .ex2 p{
+    font-size: 0.7em;
+    margin-top: 1.6%;
+}
+    .our2 p{
+    font-size: 0.7em;
+    margin-top: 2%;
+}
+}
+@media(max-width:404px){
+    .ex2 p{
+    font-size: 0.5em;
+    margin-top: 4%;
+}
+}

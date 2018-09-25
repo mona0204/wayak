@@ -1,0 +1,177 @@
+.services2{
+    background-image: url(../images/services2.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    
+}
+.services2 p{
+    width: 100%;
+    padding: 2%;
+    background-color: rgba(0,0,0,0.5);
+    color: #fff;
+    font-size: 3em;
+}
+
+.im2 div{
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+    top: 0px;
+    left: 15px;
+    bottom: 0px;
+    right: 15px;
+}
+
+.corporate{
+    border: 2px solid #8dc63f;
+    margin-top: 5px;
+    color: #80634f;
+    font-size: 1.1em;
+    overflow: hidden;
+}
+.corporate .row{
+    
+    padding: 10px;
+}
+
+
+.more-ser{
+    margin-top: 15px;
+}
+
+/*slider*/
+
+.slider{
+    margin-top: 15px;
+}
+.slider .im2 div{
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+}
+.slider .text{
+    position: absolute;
+    z-index: 1;
+    height: 15%;
+    bottom:0%;
+    background-color: #8dc63f;
+    text-align: center;
+    color: #fff;
+    left: 0px;
+    right: 0px;
+    padding: 5px;
+    padding-bottom: 15px;
+    overflow: hidden;
+   
+}
+.slider .text p{
+    padding: 0px;
+    margin: 0px;
+}
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev {
+    background: 0 0;
+    display: none;
+     color: inherit;
+    border: none;
+    padding: 0!important;
+    font: inherit;
+}
+.item{
+    max-height: 250px;
+    width: 100%;
+}
+.item .im2{
+    max-height: 250px;
+   
+}
+.item img{
+    height: 200px;
+}
+
+@media (max-width: 1185px)
+{
+.ex3 p{
+    font-size: 0.5em;
+    margin-top: 4%;
+}
+}
+
+@media (max-width: 982px)
+{
+.more-ser p{
+    font-size: 0.5em;
+    margin-top: 6%;
+}
+}
+@media (max-width: 900px)
+{
+.ex3 p{
+    font-size: 0.4em;
+    margin-top: 5%;
+}
+}
+
+@media(max-width:800px){
+    .item img{
+    height: 190px;
+}
+}
+
+@media(max-width: 700px){
+.ex3 p {
+    font-size: 0.5em;
+    margin-top: 0%;
+}
+}
+@media(max-width:660px){
+    .item img{
+    height: 180px;
+}
+}
+
+@media(max-width:600px){
+    .item img{
+    height: 250px;
+}
+}
+
+@media (max-width: 575px){
+.more-ser p {
+    font-size: 1em;
+    margin-top: 0%;
+}
+    
+.ex3 p {
+    font-size: 0.6em;
+    margin-top: 2.5%;
+}
+}
+@media (max-width: 430px){
+
+.ex3 p {
+    font-size: 0.5em;
+    margin-top: 4%;
+}
+}
+@media (max-width: 400px){
+.more-ser p {
+    font-size: 0.7em;
+    margin-top: 2%;
+}
+}
+@media (max-width: 358px){
+
+.ex3 p {
+    font-size: 0.5em;
+    margin-top: 0%;
+}
+}
+
+
+
+
+.
+
